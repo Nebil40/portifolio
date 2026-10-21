@@ -20,7 +20,7 @@ nav a {
 
 .hero {
   background: #dcecff;
-  padding: 50px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ section {
 }
 
 button {
-  background: #12345a;
+  background:#12345a;
   color: white;
   padding: 12px 20px;
   border: none;
