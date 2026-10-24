@@ -85,3 +85,65 @@ footer {
     text-align: center;
     border-radius: 10px;
 }
+#hobbies {
+    background: #dcecff;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+#hobbies h2 {
+    color: #12345a;
+    text-align: center;
+}
+
+#hobbies p {
+    font-size: 16px;
+    color: #333;
+}
+/* Hobbies Section */
+#hobbies {
+    background: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Hobbies Title */
+#hobbies h2 {
+    color: #12345a;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Hobbies Paragraphs */
+#hobbies p {
+    background: #eaf2ff;
+    color: #222222;
+    padding: 15px;
+    margin: 12px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+#hobbies p:hover {
+    background: #12345a;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Mobile Design */
+@media (max-width: 600px) {
+    #hobbies {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    #hobbies h2 {
+        font-size: 23px;
+    }
+}
