@@ -193,3 +193,34 @@ footer {
   color: #087f8c;
   font-weight: bold;
 }
+/* Education Design */
+
+#education {
+    background: white;
+    padding: 35px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.education-card {
+    background: #eaf2ff;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 5px solid #12345a;
+    transition: 0.3s;
+}
+
+.education-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.education-card h3 {
+    color: #12345a;
+}
+
+.education-card span {
+    color: blue;
+    font-weight: bold;
+}
