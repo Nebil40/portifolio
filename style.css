@@ -193,7 +193,6 @@ footer {
   color: #087f8c;
   font-weight: bold;
 }
-/* Education Design */
 
 #education {
     background: white;
@@ -219,8 +218,26 @@ footer {
 .education-card h3 {
     color: #12345a;
 }
+#goals {
+  background: #eaf2ff;
+  padding: 40px 20px;
+  margin: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
 
-.education-card span {
-    color: blue;
-    font-weight: bold;
+.goal-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #00000020;
+}
+
+.goal-card h3 {
+  color: #12345a;
+  margin-top: 20px;
+}
+
+.goal-card p {
+  color: #555:
 }
