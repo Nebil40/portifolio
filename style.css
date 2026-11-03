@@ -7,15 +7,20 @@ body {
 
 header {
   background: #12345a;
-  color: white;
+  color:white;
   padding: 20px;
   text-align: center;
 }
 
 nav a {
-  color: white;
-  margin: 10px;
+  width: 100%;
+  color:blue;
   text-decoration: none;
+  padding: 60px;
+  width:100%;
+  
+ 
+
 }
 
 .hero {
