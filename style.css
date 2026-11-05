@@ -1,28 +1,27 @@
-body {
-  font-family: Arial, sans-serif;
+body{
+  background-color:#0f172a;
+  color:rgb(89, 0, 255);
   margin: 0;
-  background: #f4f7fb;
-  color: #222;
 }
-
-header {
-  background: #12345a;
-  color:white;
-  padding: 20px;
-  text-align: center;
-}
-
-nav a {
-  width: 100%;
-  color:blue;
+nav  {
+  color:rgb(0, 255, 187);
   text-decoration: none;
-  padding: 60px;
+  padding: 20px;
   width:100%;
-  
- 
+  height:20px;
+  background-color: lightgoldenrodyellow;
+  display:flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
 
 }
+nav a{
+  padding: 25px;
 
+}
 .hero {
   background: #dcecff;
   padding: 60px 20px;
@@ -34,6 +33,9 @@ section {
   margin: 15px;
   background: white;
   border-radius: 10px;
+}
+.hi{
+  margin-top: 80px;
 }
 
 button {
