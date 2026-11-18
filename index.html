@@ -1,131 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The portfolio of Muzemil Husein, a Software Engineering student learning web development."
+    />
+    <title>Muzemil Husein | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="#home" aria-label="Muzemil Husein, home">MH</a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <nav>
-  <ul>
-    <a href="#home">home</a>
-    <a href="#about">about me</a>
-    <a href="#contact">contact</a>
-    <a href="#projects">project</a>
-  </ul>
-  </nav>
-  
-  <section id="Home" claa="hi">
-    <h1>Hello I'M,</h1>
-    <h2> muzemil husien</h2>
-  </section>
-  <section id="about" class="animate-on-scroll">
-    
-    <h2>About Me</h2>
-    <p>I'am Muzemil Husein,a Software Engineering student,dedicated to learning,coding and creating impactful projects.I am to grow in technology and achieve great success</p>
-    <p>I am learning web development and building my portfolio.</p>
-</section>
-  <section id="skills">
-    <h2>My Skills</h2>
+    <main>
+      <section id="home" class="hero" aria-labelledby="home-title">
+        <div class="hero-text">
+          <p class="greeting">Hello, I'm</p>
+          <h1 id="home-title">Muzemil Husein</h1>
+          <h2>Software Engineering Student</h2>
+          <p class="intro">
+            I am passionate about learning to code, building web projects, and
+            creating digital experiences that solve real problems.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <img
+            class="hero-image"
+            src="profile-photo.jpg"
+            alt="Portrait of Muzemil Husein"
+          />
+        </div>
+      </section>
 
-    <p>HTML</p>
-    <div class="skill-bar">
-        <div class="html">70%</div>
-    </div>
-
-    <p>CSS</p>
-    <div class="skill-bar">
-        <div class="css">50%</div>
-    </div>
-
-    <p>JavaScript</p>
-    <div class="skill-bar">
-        <div class="javascript">30%</div>
-    </div>
-</section <!-- My Projects Section -->
-<section id="projects">
-  <h2>My Projects</h2>
-
-  <div class="project-container">
-
-    <div class="project-card">
-      <h3>My Portfolio</h3>
-      <p>My personal website using HTML and CSS.</p>
-      <span>HTML | CSS</span>
-    </div>
-
-    <div class="project-card">
-      <h3>Bale Travel Website</h3>
-      <p>A website about Bale Mountains tourism.</p>
-      <span>HTML | CSS | JavaScript</span>
-    </div>
-
-    <div class="project-card">
-      <h3>My Next Project</h3>
-      <p>I will add another project here.</p>
-      <span>Learning</span>
-    </div>
-
-  </div>
-</section>
-<section id="education">
-
-    <h2>My Education</h2>
-
-    <div class="education-card">
-
-        <h3>Software engineering</h3>
-
+      <section id="about" class="section-card" aria-labelledby="about-title">
+        <h2 id="about-title">About Me</h2>
+        <ul class="about-highlights" aria-label="My areas of focus">
+          <li>Software Engineering</li>
+          <li>Web Development</li>
+          <li>Creative Projects</li>
+        </ul>
         <p>
-            I am learning Software engineering
-            and web development.
+          I am a Software Engineering student with a strong interest in web
+          development and creating useful digital experiences. I am building my
+          skills in HTML, CSS, and JavaScript, and I enjoy learning how these
+          technologies work together to create clear, engaging websites.
         </p>
+        <p>
+          I learn by practicing, exploring new ideas, and turning what I study
+          into projects such as my personal portfolio and a travel website about
+          the Bale Mountains. Each project helps me improve my coding,
+          creativity, and problem-solving skills. I am excited to keep learning
+          and to grow into a capable web developer.
+        </p>
+      </section>
 
-        <span>HTML | CSS | JavaScript</span>
+      <section id="skills" class="section-card" aria-labelledby="skills-title">
+        <h2 id="skills-title">My Skills</h2>
 
-    </div>
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>HTML</span>
+            <span>70%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-label="HTML" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+            <span class="skill-level html"></span>
+          </div>
+        </div>
 
-</section>
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>CSS</span>
+            <span>50%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-label="CSS" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <span class="skill-level css"></span>
+          </div>
+        </div>
 
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>JavaScript</span>
+            <span>30%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-label="JavaScript" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+            <span class="skill-level js"></span>
+          </div>
+        </div>
+      </section>
 
-  <section id="hobbies">
-    <h2>My hobbies</h2>
-    <p>I enjoy learning programming.</p>
-    <p>I like designing webisite.</p>
-    <p>I enjoy learning new technologies</p>
-  </section>
+      <section id="projects" class="section-card" aria-labelledby="projects-title">
+        <h2 id="projects-title">My Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual portfolio-visual" aria-hidden="true">
+              <span>MH</span>
+            </div>
+            <h3>My Portfolio</h3>
+            <p>A personal website built with HTML and CSS.</p>
+            <span class="project-tag">HTML | CSS</span>
+          </article>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: Muzemilhusein827@gmail.com</p>
-    </section>
-  <section id="goals">
+          <article class="project-card">
+            <div class="project-visual travel-visual" aria-hidden="true">
+              <span>Bale Mountains</span>
+            </div>
+            <h3>Bale Travel Website</h3>
+            <p>A travel landing page about tourism in the Bale Mountains.</p>
+            <span class="project-tag">HTML | CSS | JavaScript</span>
+          </article>
 
-    <h2>My Future Goals</h2>
+          <article class="project-card">
+            <div class="project-visual future-visual" aria-hidden="true">
+              <span>Coming Soon</span>
+            </div>
+            <h3>Future Project</h3>
+            <p>I am preparing to build more advanced and creative projects.</p>
+            <span class="project-tag">In progress</span>
+          </article>
+        </div>
+      </section>
 
-    <div class="goal-card">
+      <section
+        id="education"
+        class="section-card"
+        aria-labelledby="education-title"
+      >
+        <h2 id="education-title">Education</h2>
+        <div class="education-box">
+          <h3>Software Engineering</h3>
+          <p>
+            I am currently studying software engineering and learning web
+            development, with a focus on building practical user interfaces.
+          </p>
+          <span>HTML | CSS | JavaScript</span>
+        </div>
+      </section>
 
-        <h3> Become a Web Developer</h3>
-        <p>I want to become a professional web developer.</p>
+      <section id="hobbies" class="section-card" aria-labelledby="hobbies-title">
+        <h2 id="hobbies-title">Hobbies</h2>
+        <ul class="hobby-list">
+          <li>Learning programming</li>
+          <li>Designing websites</li>
+          <li>Exploring new technologies</li>
+        </ul>
+      </section>
 
-        <h3> Learn JavaScript</h3>
-        <p>I want to improve my programming skills.</p>
+      <section
+        id="contact"
+        class="section-card contact-card"
+        aria-labelledby="contact-title"
+      >
+        <h2 id="contact-title">Contact Me</h2>
+        <p>
+          Email:
+          <a href="mailto:Muzemilhusein827@gmail.com">
+            Muzemilhusein827@gmail.com
+          </a>
+        </p>
+      </section>
+    </main>
 
-        <h3> Build More Websites</h3>
-        <p>I want to create modern and creative websites.</p>
-
-    </div>
-
-</section>
-
-
-  <footer>
-    <p>Copyright 2026 - My Po
-    srtfolio</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <footer>
+      <p>&copy; 2026 Muzemil Husein. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
